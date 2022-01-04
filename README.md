@@ -7,6 +7,7 @@ Server-->
 * The server provides status updates of connection events, messages being sent and received, and so on.
 * The server recognizes when the client has disconnected and subsequently closes the socket and terminate the program.
 A sample output of the server program is given below.
+
 ![server_output](https://user-images.githubusercontent.com/3108754/147995560-a43399f7-665b-4538-949b-dd9c6fe8fc7a.JPG)
 
 
@@ -17,6 +18,7 @@ Client-->
 * The client provides status updates of connection events, messages being sent and received, and so on.
 * The client can quit and desconnect from the server when the user simply enters a carriage return (the [ENTER] key).
 A sample output of the client program is given below.
+
 ![client_output](https://user-images.githubusercontent.com/3108754/147996935-fd38d0aa-3fc6-4ace-9a17-6c633b7ef39d.JPG)
 
 
@@ -25,4 +27,5 @@ An explanation of the RSA key generation algorithm is given below.
 * Randomly choose two prime numbers p and q such that (p * q >= 128).
 * Compute n = (p * q) and phi(n) = (p-1)(q-1).
 * Randomly choose an odd number e (1 < e < phi(n)) that is co-prime to phi(n) such that greatest common divisor if e and phi(n) becomes 1 (gcd(e, phi(n)) = 1).
-* Compute d (1 < d < phi(n)) such that d is the modular multiplicative inverse of e (![Capture](https://user-images.githubusercontent.com/3108754/147998040-116a6d73-20bd-46d5-a4ac-3c98a6a4c8ab.JPG)).
+* Compute d (1 < d < phi(n)) such that d is the modular multiplicative inverse of e (
+![Capture](https://user-images.githubusercontent.com/3108754/147998040-116a6d73-20bd-46d5-a4ac-3c98a6a4c8ab.JPG)).
