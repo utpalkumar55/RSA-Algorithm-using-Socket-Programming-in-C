@@ -27,6 +27,4 @@ An explanation of the RSA key generation algorithm is given below.
 * Randomly choose two prime numbers p and q such that (p * q >= 128).
 * Compute n = (p * q) and phi(n) = (p-1)(q-1).
 * Randomly choose an odd number e (1 < e < phi(n)) that is co-prime to phi(n) such that greatest common divisor if e and phi(n) becomes 1 (gcd(e, phi(n)) = 1).
-* Compute d (1 < d < phi(n)) such that d is the modular multiplicative inverse of e (
-
-![Capture](https://user-images.githubusercontent.com/3108754/147998040-116a6d73-20bd-46d5-a4ac-3c98a6a4c8ab.JPG)).
+* Compute d (1 < d < phi(n)) such that d is the modular multiplicative inverse of e (![Capture](https://user-images.githubusercontent.com/3108754/147998040-116a6d73-20bd-46d5-a4ac-3c98a6a4c8ab.JPG)).
