@@ -1,4 +1,4 @@
-# RSA-Algorithm-using-Socket-Programming-in-C
+# RSA Algorithm using Socket Programming in C
 This project implements simple implementation of RSA algorithm in C language using socket programming. This project contains a complete C program to a client/server model using Linus sockets. You will find two C programs in this repository which are client.c and server.c. server.c program contains the implenetation RSA key generation algorithm with data passed in from the client. server.c and client.c programs will need to be run in two different machines within the same network. The functionalities of server and client are given below.
 
 Server-->
